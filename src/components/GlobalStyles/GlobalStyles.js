@@ -64,6 +64,22 @@ table {
     float above the app.
   */
   isolation: isolate;
+
+  /* COLORS */
+  --white: hsl(0deg 0% 100%);
+  --gray-100: hsl(185deg 5% 95%);
+  --gray-300: hsl(190deg 5% 80%);
+  --gray-500: hsl(196deg 4% 60%);
+  --gray-700: hsl(220deg 5% 40%);
+  --gray-900: hsl(220deg 3% 20%);
+  --gray-overlay: hsla(220, 5%, 40%, 0.8);  
+  --primary: hsl(340deg 65% 47%);
+  --secondary: hsl(240deg 60% 63%);
+
+  /* WEIGHTS */
+  --weight-normal: 500;
+  --weight-medium: 600;
+  --weight-bold: 800;
 }
 
 html {
